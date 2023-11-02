@@ -1,0 +1,49 @@
+*{  padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body {
+    color :white;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left:hover , .right:hover{
+    transform: scale(0.95);
+}
+.right h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 6rem;
+}
+.left h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 6rem;
+}
+.button {
+    border-radius: 30px;
+    color: white;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin-left: 40%;
+    margin-bottom: 50%;
+    text-align : center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+    height: 5%;
+}
+.button :hover{
+    background: #fcc567;
+    color: white;
+}
